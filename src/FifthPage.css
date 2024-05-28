@@ -1,0 +1,42 @@
+/* FifthPage.css */
+.fifth-page {
+    text-align: center;
+
+    background-color: #E9FEEC;
+    padding-top:100px;
+  }
+  
+  .intro-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #00A756;
+    height: 400px;
+    width: 100%;
+    margin-top: 100px;
+  }
+  
+  .intro-image {
+    max-width: 400px;
+    height: 500px;
+    border-radius: 10px;
+    margin-right: 20px; 
+    margin-bottom: 90px;
+    
+  }
+  
+  .intro-text {
+    max-width: 50%;
+    text-align: left;
+  }
+  
+  .intro-heading {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .intro-description {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
