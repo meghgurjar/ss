@@ -1,4 +1,3 @@
-/* EighthPage.css */
 .eighth-page {
     text-align: center;
     background-color: #E9FEEC;
@@ -30,7 +29,7 @@
   }
   
   .gallery-item {
-    flex: 1 1 calc(25% - 20px); /* Adjust the width of the gallery items */
+    flex: 1 1 calc(25% - 20px); 
     max-width: calc(25% - 20px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
@@ -43,7 +42,6 @@
     width: 100%;
     height: auto;
     display: block;
-    /* mix-blend-mode:overlay; */
   }
   
   .gallery-item:hover {

@@ -1,12 +1,10 @@
 import React from "react";
-import "./FourPage.css";
+import "./TenthPage.css";
 
 function FourPage() {
   return (
     <div className="second-page">
-      <h1 className="page-heading">
-        Why Our Mental Health Consultants are <br /> the Best Choice
-      </h1>
+      <h1 className="page-heading">Our Blog For You</h1>
       <div className="box-container">
         <div className="box-1">
           <button className="box-button">Button 1</button>

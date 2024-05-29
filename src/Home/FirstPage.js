@@ -1,7 +1,6 @@
 import React from "react";
-import "./Home.css";
-import heroImage from '../Images/hero.png';
-
+import "./FirstPage.css";
+import heroImage from "../Images/hero.png";
 
 function Hero() {
   return (
@@ -12,7 +11,7 @@ function Hero() {
         <button className="hero-button">Learn More</button>
       </div>
       <div className="hero-image">
-        <img src={heroImage}  alt="Hero"  />
+        <img src={heroImage} alt="Hero" />
       </div>
     </div>
   );

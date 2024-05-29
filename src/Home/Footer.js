@@ -1,6 +1,6 @@
 import React from "react";
-import "./Footer.css";
-import footerImage from "./Images/footer.jpg"; // Adjust the path as necessary
+import "../Home/Footer.css";
+import footerImage from "../Images/footer.jpg"; // Adjust the path as necessary
 
 function Footer() {
   return (

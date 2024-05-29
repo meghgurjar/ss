@@ -1,6 +1,6 @@
 import React from "react";
-import "./SeventhPage.css";
-import backgroundImage from "./Images/page7.png";
+import "../Home/SeventhPage.css";
+import backgroundImage from "../Images/page7.png";
 
 function SeventhPage() {
   return (

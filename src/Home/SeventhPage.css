@@ -1,0 +1,29 @@
+/* SeventhPage.css */
+.seventh-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: #E9FEEC;
+    text-align: center;
+    height: 400px;
+    mix-blend-mode: multiply;
+  }
+  
+  .centered-text {
+    
+    border-radius: 10px;
+  }
+  
+  .centered-text h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .centered-text p {
+    font-size: 24px;
+  }
+  

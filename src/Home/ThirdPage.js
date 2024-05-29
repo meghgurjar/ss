@@ -1,7 +1,7 @@
 import React from "react";
-import "./ThirdPage.css";
+import "../Home/ThirdPage.css";
 // import backgroundImage from "./Images/side3pg.png"; // Import your background image
-import mainImage from "./Images/thirdpg.png"; // Import your main image
+import mainImage from "../Images/thirdpg.png"; // Import your main image
 
 function ThirdPage() {
   return (

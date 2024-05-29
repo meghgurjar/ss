@@ -1,10 +1,10 @@
 import React from "react";
-import "./EightPage.css";
-import image1 from "./Images/pg8-1.png"; // Import your gallery images
-import image2 from "./Images/pg8-2.png";
-import image3 from "./Images/pg8-3.png";
-import image4 from "./Images/pg8-4.png";
-import backgroundImage from "./Images/page8-footer.png";
+import "../Home/EightPage.css";
+import image1 from "../Images/pg8-1.png"; // Import your gallery images
+import image2 from "../Images/pg8-2.png";
+import image3 from "../Images/pg8-3.png";
+import image4 from "../Images/pg8-4.png";
+import backgroundImage from "../Images/page8-footer.png";
 
 function EighthPage() {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
-import "./FifthPage.css";
-import introImage from "./Images/intro.jpg";
+import "../Home/FifthPage.css";
+import introImage from "../Images/intro.jpg";
 
 function FifthPage() {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
-import "./SixthPage.css";
-import rightImage from "./Images/page6.png";
+import "../Home/SixthPage.css";
+import rightImage from "../Images/page6.png";
 
 function SixthPage() {
   return (
