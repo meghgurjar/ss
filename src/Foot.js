@@ -1,22 +1,8 @@
-// import React from "react";
-// import "../Home/Footer.css";
-// import footerImage from "../Images/footer.jpg"; // Adjust the path as necessary
-
-// function Footer() {
-//   return (
-//     <footer className="footer">
-//       <img src={footerImage} alt="Footer" className="footer-image" />
-//     </footer>
-//   );
-// }
-
-// export default Footer;
-
 import React from "react";
 import { Facebook, Instagram, Linkedin, Twitter, Youtube } from "lucide-react";
-import Wave from "../Wave";
+// import Wave from "./UI/Wave";
 
-function Footer() {
+function Foot() {
   const Links = [
     {
       icon: <Instagram className="text-green-700" />,
@@ -44,7 +30,7 @@ function Footer() {
     <div className="relative flex flex-col items-center justify-center">
       <div className="absolute w-screen rotate-180 -bottom-0 -z-10">
         {/* Uncomment if Wave component is available */}
-        <Wave />
+        {/* <Wave /> */}
       </div>
       <div className="relative flex items-start justify-between w-screen pt-8 px-20">
         <div className="flex flex-col items-start text-primary-textgreen font-extrabold text-lg">
@@ -52,7 +38,7 @@ function Footer() {
           <span>Spot</span>
           <div>
             {/* Uncomment and adjust the Image component if using Next.js or another framework */}
-            {/* <Image src={`/public/Logo.png`} alt='Logo' width={100} height={100} /> */}
+            {/* <Image src={/public/Logo.png} alt='Logo' width={100} height={100} /> */}
           </div>
         </div>
         <div className="flex items-start ml-10 justify-between w-2/3">
@@ -98,4 +84,4 @@ function Footer() {
   );
 }
 
-export default Footer;
+export default Foot;
